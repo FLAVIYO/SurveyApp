@@ -106,7 +106,7 @@ For the user interface, there are 3 screens that need to be created.
 # Screen 1
 When the application starts up the user will be presented with a screen with the following two options.
 
-<img align="center" alt="Coding" width="100%" height="50%" src="screen1.jpg">
+<img align="center" alt="Coding" width="100%" height="50%" src="screen1.jpeg">
 
 Clicking on the first button will take the user to Screen 2. Clicking the second button will take the user to screen 3.
 
@@ -116,7 +116,7 @@ The personal details are just text boxes. The question about favourite food uses
 When the user clicks on submit, the data must be written to a database of your choice. After that, the user must be returned to the main menu (Screen 1 discussed above).
 In this way, many surveys can be done by users.
 
-<img align="center" alt="Coding" width="100%" height="50%" src="screen3.jpg">
+<img align="center" alt="Coding" width="100%" height="50%" src="screen3.jpeg">
 
 The expected calculations are as follows:-
  The Total number of surveys completed. This is just a count of the total number of rows in the
