@@ -106,17 +106,17 @@ For the user interface, there are 3 screens that need to be created.
 # Screen 1
 When the application starts up the user will be presented with a screen with the following two options.
 
-![Alt Text](image/screen1/image.png)
+![Alt Text](images/screen1/image.png)
 
 Clicking on the first button will take the user to Screen 2. Clicking the second button will take the user to screen 3.
 
-![Alt Text](image/screen2/image.png)
+![Alt Text](images/screen2/image.png)
 
 The personal details are just text boxes. The question about favourite food uses checkboxes. This will allow the user to select more than one. The last question about the rating uses radio buttons and will permit the user to choose only one. The selected response is converted to a number from 1 to 5.
 When the user clicks on submit, the data must be written to a database of your choice. After that, the user must be returned to the main menu (Screen 1 discussed above).
 In this way, many surveys can be done by users.
 
-![Alt Text](image/screen3/image.png)
+![Alt Text](images/screen3/image.png)
 
 The expected calculations are as follows:-
  The Total number of surveys completed. This is just a count of the total number of rows in the
