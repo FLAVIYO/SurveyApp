@@ -1,6 +1,6 @@
-<<<<<<< HEAD
+
 =======
-## Survey Results Web Application
+## Survey Application
 
 This is a web application that displays survey results, including total surveys, average age, oldest and youngest person, food preferences, and entertainment preferences. The application uses Node.js, Express.js, MongoDB, and HTML/CSS for the server, database, and frontend components.
 
@@ -105,9 +105,11 @@ For the user interface, there are 3 screens that need to be created.
 
 # Screen 1
 When the application starts up the user will be presented with a screen with the following two options.
+
 ![Alt Text](image/screen1/image.png)
 
 Clicking on the first button will take the user to Screen 2. Clicking the second button will take the user to screen 3.
+
 ![Alt Text](image/screen2/image.png)
 
 The personal details are just text boxes. The question about favourite food uses checkboxes. This will allow the user to select more than one. The last question about the rating uses radio buttons and will permit the user to choose only one. The selected response is converted to a number from 1 to 5.
@@ -119,23 +121,35 @@ In this way, many surveys can be done by users.
 The expected calculations are as follows:-
  The Total number of surveys completed. This is just a count of the total number of rows in the
 database.
+
  Average age of the people that participated in the survey
+
  Oldest person that participated in the survey
+
  Youngest person that participated in the survey.
+
  Percentage of people who like Pizza is calculated by the number of people that like Pizza divided
 by the total number of surveys. Multiply by 100 to get the percentage. Present the result rounded
 off to 1 decimal place.
+
  People like to eat out is calculated by working out the average of the rating. Present the result
 rounded off to 1 decimal place.
+
 When the user clicks on OK button the user must be returned to the main menu (Screen 1 discussed above).
+
 # Optional
+
 If you wish to challenge yourself you may explore the following options. These tasks should only be considered once all functionality above has been achieved.
 
  -Validate the fields. Check that the user has not left any of the text fields empty before they submit.
+
  -The user may NOT enter a value for Age that is less than 5 and should not be more than 120.
+
  -Ensure that the user has actually selected a rating for each of the four rating questions. They
 cannot submit a survey without selecting a rating.
+
  -Styling the screens so that it looks modern and user-friendly.
+
  -Where the user is expected to enter the date, use a date picker.
 
 
