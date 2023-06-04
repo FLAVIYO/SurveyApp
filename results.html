@@ -2,12 +2,25 @@
 <html>
 <head>
   <title>Survey Results</title>
-  <link rel="stylesheet" href="style.css">
+  <style>
+
+ table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th, td {
+      text-align: left;
+      padding: 8px;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
 </head>
 <body>
   <h1>Survey Results</h1>
 
-  <table>
+  <table class="tresults">
     <tr>
       <th>Total Surveys</th>
       <td id="totalSurveys"></td>
@@ -27,7 +40,7 @@
   </table>
 
   <h2>Food Preferences</h2>
-  <table>
+  <table class="tresults">
     <tr>
       <th>Preference</th>
       <th>Percentage</th>
@@ -47,7 +60,7 @@
   </table>
 
   <h2>Entertainment Preferences</h2>
-  <table>
+  <table class="tresults">
     <tr>
       <th>Preference</th>
       <th>Average of Rating</th>
