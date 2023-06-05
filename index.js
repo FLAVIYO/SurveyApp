@@ -30,7 +30,7 @@ function setTextContent(elementId, text) {
   }
 }
 
-app.post("/DataEntry", (req, res) => {
+app.post('http://localhost/DataEntry', (req, res) => {
   var surname = req.body.surname;
   var name = req.body.name;
   var contact = req.body.contact;
@@ -76,7 +76,7 @@ app.post("/DataEntry", (req, res) => {
 
   newData.save()
     .then(() => {
-      res.redirect('/index.html'); // Redirect to index.html
+      res.redirect('http://localhost/index.html'); // Redirect to index.html
     })
     .catch((err) => {
       console.error("Failed to save data:", err);
